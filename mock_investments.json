@@ -1,0 +1,26 @@
+[
+    {
+        "account_id": "ACC123",
+        "ticker": "AAPL",
+        "quantity": 5,
+        "purchase_price": 140.00,
+        "current_price": 185.00,
+        "asset_class": "Equity"
+    },
+    {
+        "account_id": "ACC123",
+        "ticker": "TSLA",
+        "quantity": 2,
+        "purchase_price": 650.00,
+        "current_price": 700.00,
+        "asset_class": "Equity"
+    },
+    {
+        "account_id": "ACC123",
+        "ticker": "BTC-USD",
+        "quantity": 0.05,
+        "purchase_price": 28000.00,
+        "current_price": 30000.00,
+        "asset_class": "Crypto"
+    }
+]
