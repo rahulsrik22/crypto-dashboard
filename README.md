@@ -4,7 +4,6 @@
 ![Flask](https://img.shields.io/badge/Flask-2.3-lightgrey.svg)
 ![AWS](https://img.shields.io/badge/AWS-S3%20%7C%20Lambda-orange.svg)
 ![Pandas](https://img.shields.io/badge/Pandas-2.0-green.svg)
-![Status](https://img.shields.io/badge/Project-In_Progress-yellow.svg)
 
 A lightweight data-driven dashboard that tracks portfolio performance, fetches live cryptocurrency data, and stores it in AWS.
 Built to practice ETL pipelines, data visualization, and web deployment.
