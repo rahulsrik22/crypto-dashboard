@@ -1,5 +1,11 @@
 # Live Cryptocurrency Dashboard
 
+![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
+![Flask](https://img.shields.io/badge/Flask-2.3-lightgrey.svg)
+![AWS](https://img.shields.io/badge/AWS-S3%20%7C%20Lambda-orange.svg)
+![Pandas](https://img.shields.io/badge/Pandas-2.0-green.svg)
+![Status](https://img.shields.io/badge/Project-In_Progress-yellow.svg)
+
 A lightweight data-driven dashboard that tracks portfolio performance, fetches live cryptocurrency data, and stores it in AWS.
 Built to practice ETL pipelines, data visualization, and web deployment.
 
@@ -50,3 +56,6 @@ investment_dashboard_project/
   flask run (--port=5001 if 5000 is busy on Macbook)
 5. Open in browser
   http://127.0.0.1:5000
+
+## Deployment
+This project is designed for cloud deployment. The ETL process runs as an AWS Lambda function, triggered via API Gateway, wirth results stored in S3. The Flask app can be hosted on an EC2 instance or containerized with Docker for production.
