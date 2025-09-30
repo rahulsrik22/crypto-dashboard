@@ -57,4 +57,4 @@ investment_dashboard_project/
   http://127.0.0.1:5000
 
 ## Deployment
-This project is designed for cloud deployment. The ETL process runs as an AWS Lambda function, triggered via API Gateway, wirth results stored in S3. The Flask app can be hosted on an EC2 instance or containerized with Docker for production.
+This project is designed for cloud deployment. The ETL process runs as an AWS Lambda function, triggered via API Gateway, with results stored in S3. The Flask app can be hosted on an EC2 instance or containerized with Docker for production.
